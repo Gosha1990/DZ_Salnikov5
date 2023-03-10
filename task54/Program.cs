@@ -10,7 +10,14 @@
 // 8 4 4 2
 
 
-
+/// <summary>
+/// Создает двумерную матрицу
+/// </summary>
+/// <param name="rows">кол-во строк</param>
+/// <param name="cols">кол-во столбцов</param>
+/// <param name="min">от мин значения</param>
+/// <param name="max">до мах значения</param>
+/// <returns>заполненый масив</returns>
 int[,] GetMatrix(int rows, int cols, int min, int max)
 {
     int[,] matrix = new int[rows, cols];
